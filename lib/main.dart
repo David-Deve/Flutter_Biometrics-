@@ -3,6 +3,7 @@ import 'package:fluttertest/Container/homePage.dart';
 
 import 'package:flutter/material.dart';
 import 'package:fluttertest/Container/loading.dart';
+import 'package:fluttertest/Container/loginPage.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:page_transition/page_transition.dart';
 
@@ -22,7 +23,7 @@ void main() {
       backgroundColor: HexColor('#0D3A56'),
       splashTransition: SplashTransition.fadeTransition,
       pageTransitionType: PageTransitionType.fade,
-      nextScreen: const HomePage(),
+      nextScreen: const LoginPage(),
     ),
 
     theme: ThemeData(scaffoldBackgroundColor: HexColor('#0D3A56')),

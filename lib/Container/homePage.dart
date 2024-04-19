@@ -1,11 +1,8 @@
 import 'package:flutter/services.dart';
 import 'package:fluttertest/Container/accountPage.dart';
-import 'package:fluttertest/Container/loading.dart';
 import 'package:fluttertest/Logic/Authentication.dart';
-import 'package:fluttertest/const.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:flutter/material.dart';
-import 'package:local_auth/local_auth.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
