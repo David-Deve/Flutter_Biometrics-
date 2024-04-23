@@ -39,6 +39,8 @@ dependencies:
   local_auth: ^2.2.0
   auto_route: ^8.0.3
   animated_splash_screen: ^1.3.0
+  http: ^1.2.1
+  liquid_pull_to_refresh: ^3.0.1
 
 dev_dependencies:
   flutter_test:
